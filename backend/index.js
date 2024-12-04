@@ -19,8 +19,7 @@ app.get("/", (req, res) => {
         success: true
     })
 })
-//dbPassword:OmSaiRam
-//connectionString:mongodb+srv://dbUser:OmSaiRam@cluster0.rmrp7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
 app.use(express.json())
 app.use(cookieParser())
 app.use(urlencoded({ extended: true }))
