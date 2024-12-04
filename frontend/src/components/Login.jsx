@@ -31,7 +31,7 @@ const Login = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          withCredientials: true,
+          withCredentials: true,
         }
       );
       console.log(res)
