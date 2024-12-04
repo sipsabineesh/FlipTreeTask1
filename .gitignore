@@ -1,0 +1,34 @@
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build and Distribution directories
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.swp
+*.bak
+
+# Coverage or test output
+coverage/
+.nyc_output/
+
+# Package manager lock files (optional)
+package-lock.json
+yarn.lock
+
+
